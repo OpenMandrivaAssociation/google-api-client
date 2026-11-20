@@ -1,6 +1,6 @@
 Name:		google-api-client
 Version:	1.34.0
-Release:	1
+Release:	2
 Summary:	Google API Client Library for Java
 Group:		Development/Java
 License:	Apache-2.0
@@ -17,7 +17,7 @@ BuildRequires:	mvn(com.google.http-client:google-http-client) = 1.42.2
 BuildRequires:	mvn(com.google.http-client:google-http-client-gson) = 1.42.2
 BuildRequires:	mvn(com.google.http-client:google-http-client-apache-v2) = 1.42.2
 BuildRequires:	mvn(com.google.oauth-client:google-oauth-client) = 1.34.1
-BuildRequires:	mvn(com.google.guava:guava) = 33.6.0-jre
+BuildRequires:	mvn(com.google.guava:guava) = 33.8.0-jre
 BuildRequires:	mvn(com.google.guava:failureaccess) = 1.0.3
 BuildRequires:	mvn(com.google.code.gson:gson) = 2.14.0
 BuildRequires:	mvn(org.apache.httpcomponents:httpclient) = 4.5.14
@@ -27,7 +27,7 @@ Requires:	mvn(com.google.http-client:google-http-client) = 1.42.2
 Requires:	mvn(com.google.http-client:google-http-client-gson) = 1.42.2
 Requires:	mvn(com.google.http-client:google-http-client-apache-v2) = 1.42.2
 Requires:	mvn(com.google.oauth-client:google-oauth-client) = 1.34.1
-Requires:	mvn(com.google.guava:guava) = 33.6.0-jre
+Requires:	mvn(com.google.guava:guava) = 33.8.0-jre
 Requires:	mvn(com.google.code.gson:gson) = 2.14.0
 Requires:	mvn(org.apache.httpcomponents:httpclient) = 4.5.14
 Requires:	mvn(org.apache.httpcomponents:httpcore) = 4.4.16
@@ -110,7 +110,7 @@ cat > google-api-client.pom << 'EOF'
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>33.6.0-jre</version>
+      <version>33.8.0-jre</version>
     </dependency>
     <dependency>
       <groupId>com.google.code.gson</groupId>
